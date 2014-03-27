@@ -14,6 +14,4 @@
 
 @property (nonatomic) NSInteger livingNeighbors;
 
-- (id)init;
-
 @end

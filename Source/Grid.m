@@ -23,6 +23,14 @@ static const int COLS = 10;
     
 }
 
+- (id)init
+{
+    if (self = [super init]) {
+        self.userInteractionEnabled = TRUE;
+    }
+    return self;
+}
+
 - (void)onEnter
 {
     [self setupGrid];
@@ -55,6 +63,20 @@ static const int COLS = 10;
         }
     }
     
+}
+
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    CGPoint touchLocation = [touch locationInNode:self];
+    Creature *creature = [self creatureForTouchPosition:touchLocation];
+    creature.isAlive = !creature.isAlive;
+}
+
+- (Creature *)creatureForTouchPosition:(CGPoint)touchPosition
+{
+    int col = (int)(touchPosition.x/_cellWidth);
+    int row = (int)(touchPosition.y/_cellHeight);
+    return _grid[row][col];
 }
 
 @end

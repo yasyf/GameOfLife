@@ -7,8 +7,12 @@
 //
 
 #import "CCSprite.h"
+#import "Creature.h"
 
 @interface Grid : CCSprite
 
 - (void)setupGrid;
+
+- (Creature *)creatureForTouchPosition:(CGPoint)touchPosition;
+
 @end
