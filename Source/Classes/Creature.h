@@ -11,7 +11,6 @@
 @interface Creature : CCSprite
 
 @property (nonatomic) BOOL isAlive;
-
 @property (nonatomic) NSInteger livingNeighbors;
 
 @end

@@ -11,7 +11,16 @@
 
 @interface Grid : CCSprite
 
+@property (nonatomic) NSInteger generation;
+@property (nonatomic) NSInteger alive;
+
++ (NSSet *)getNeighboringCellsForPoint:(CGPoint)p;
+
 - (void)setupGrid;
+- (void)evolveStep;
+
+- (void)countNeighbors;
+- (void)updateCreatures;
 
 - (Creature *)creatureForTouchPosition:(CGPoint)touchPosition;
 

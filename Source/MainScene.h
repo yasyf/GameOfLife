@@ -7,7 +7,12 @@
 //
 
 #import "CCNode.h"
+#import "Grid.h"
 
 @interface MainScene : CCNode
+
+- (void)play;
+- (void)pause;
+- (void)step;
 
 @end

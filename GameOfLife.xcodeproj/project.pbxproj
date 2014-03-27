@@ -57,10 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C5E7B4F18E3BD25008E7502 /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Creature.h; path = /Users/yasyf/Dropbox/Documents/iOS/GameOfLife.spritebuilder/Source/Classes/Creature.h; sourceTree = "<absolute>"; };
-		0C5E7B5018E3BD25008E7502 /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Creature.m; path = /Users/yasyf/Dropbox/Documents/iOS/GameOfLife.spritebuilder/Source/Classes/Creature.m; sourceTree = "<absolute>"; };
-		0C5E7B5118E3BD25008E7502 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = /Users/yasyf/Dropbox/Documents/iOS/GameOfLife.spritebuilder/Source/Classes/Grid.h; sourceTree = "<absolute>"; };
-		0C5E7B5218E3BD25008E7502 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Grid.m; path = /Users/yasyf/Dropbox/Documents/iOS/GameOfLife.spritebuilder/Source/Classes/Grid.m; sourceTree = "<absolute>"; };
+		0C5E7B4F18E3BD25008E7502 /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		0C5E7B5018E3BD25008E7502 /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
+		0C5E7B5118E3BD25008E7502 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		0C5E7B5218E3BD25008E7502 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
